@@ -1,0 +1,38 @@
+:root {
+    --background-color: rgb(132, 97, 68);
+}
+.tile {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 200%;
+    align-items: center;
+    justify-content: center;
+}
+.tile-value {
+    position: relative;
+    width: -1%;
+    font-size: 40%;
+    align-self: flex-end;
+    justify-self: flex-start;
+    font-weight: bolder;
+}
+.drop-down {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10%;
+}
+#canvas {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+input {
+    text-align: center;
+    font-size: 300%;
+    width: 100px;
+}
