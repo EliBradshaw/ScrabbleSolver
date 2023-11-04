@@ -4,7 +4,7 @@
 .tile {
     display: flex;
     flex-flow: row nowrap;
-    font-size: 200%;
+    font-size: 150%;
     align-items: center;
     justify-content: center;
 }
@@ -27,6 +27,7 @@
     border-radius: 10%;
 }
 #canvas {
+    margin-top: 60px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;

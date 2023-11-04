@@ -3,8 +3,8 @@ import Bonus from "./Bonus.js";
 import Engine from "./Engine.js";
 import LetterValue from "./LetterValue.js";
 
-let HTMLWidth = 550;
-let HTMLHeight = 550;
+let HTMLWidth = 400;
+let HTMLHeight = 400;
 let border = 1;
 Engine.init();
 let board = new Board();
